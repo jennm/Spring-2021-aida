@@ -3,7 +3,7 @@ conn = http.client.HTTPSConnection("esg-environmental-social-governance-data.p.r
 
 headers = {
     'x-rapidapi-host': "esg-environmental-social-governance-data.p.rapidapi.com",
-    'x-rapidapi-key': "32df9c2991e6cf6e3407fe9dd88eea0a"
+    'x-rapidapi-key': "e571107a559cd1a2eee9fff230f58ad5"
     }
 
 conn.request("GET", 
