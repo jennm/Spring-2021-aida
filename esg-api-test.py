@@ -1,15 +1,19 @@
-import http.client
-conn = http.client.HTTPSConnection("esg-environmental-social-governance-data.p.rapidapi.com")
+import json
 
-headers = {
-    'x-rapidapi-host': "esg-environmental-social-governance-data.p.rapidapi.com",
-    'x-rapidapi-key': "e571107a559cd1a2eee9fff230f58ad5"
-    }
+import requests
 
-conn.request("GET", 
-"/goals?q=company%20name%20or%20stock%20symbols%20or%20exchange%3Asymbol", headers=headers)
+key = 'e571107a559cd1a2eee9fff230f58ad5'
+# can specify actual things using search and stuff :)
+api_url = f'https://tf689y3hbj.execute-api.us-east-1.amazonaws.com/prod/authorization/search?q=tesla&token={key}'
 
-res = conn.getresponse()
-data = res.read()
 
-print(data.decode("utf-8"))
+def use_requests(api_url):
+
+    response = requests.get(api_url)
+    json_response = json.loads(response.text)
+    print(json_response)
+
+    return
+
+
+use_requests(api_url)
