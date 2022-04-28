@@ -1,0 +1,90 @@
+[
+    {
+        "stock": "MCD",
+        "date": "2022-03-16",
+        "score": 3,
+        "positive_score": 31,
+        "negative_score": -30,
+        "activity": 3339,
+        "avg_7_days": -9,
+        "avg_14_days": -18,
+        "avg_30_days": -6
+    },
+    {
+        "stock": "MCD",
+        "date": "2022-03-17",
+        "score": 14,
+        "positive_score": 36,
+        "negative_score": -39,
+        "activity": 3210,
+        "avg_7_days": -7,
+        "avg_14_days": -17,
+        "avg_30_days": -5
+    },
+    {
+        "stock": "MCD",
+        "date": "2022-03-18",
+        "score": -40,
+        "positive_score": 36,
+        "negative_score": -53,
+        "activity": 4710,
+        "avg_7_days": -11,
+        "avg_14_days": -18,
+        "avg_30_days": -8
+    },
+    {
+        "stock": "MCD",
+        "date": "2022-03-19",
+        "score": -32,
+        "positive_score": 40,
+        "negative_score": -53,
+        "activity": 1957,
+        "avg_7_days": -16,
+        "avg_14_days": -16,
+        "avg_30_days": -9
+    },
+    {
+        "stock": "MCD",
+        "date": "2022-03-20",
+        "score": -14,
+        "positive_score": 38,
+        "negative_score": -71,
+        "activity": 25466,
+        "avg_7_days": -10,
+        "avg_14_days": -15,
+        "avg_30_days": -11
+    },
+    {
+        "stock": "MCD",
+        "date": "2022-03-21",
+        "score": -26,
+        "positive_score": 63,
+        "negative_score": -67,
+        "activity": 6421,
+        "avg_7_days": -12,
+        "avg_14_days": -12,
+        "avg_30_days": -13
+    },
+    {
+        "stock": "MCD",
+        "date": "2022-03-22",
+        "score": 5,
+        "positive_score": 54,
+        "negative_score": -53,
+        "activity": 2405,
+        "avg_7_days": -11,
+        "avg_14_days": -10,
+        "avg_30_days": -13
+    },
+    {
+        "stock": "MCD",
+        "date": "2022-03-23",
+        "score": 10,
+        "positive_score": 59,
+        "negative_score": -54,
+        "activity": 3240,
+        "avg_7_days": -8,
+        "avg_14_days": -10,
+        "avg_30_days": -14
+    }
+]
